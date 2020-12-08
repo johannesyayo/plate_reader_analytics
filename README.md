@@ -1,4 +1,4 @@
-# plate_reader_analytics
+# Plate reader analytics
 
 Table of Contents
 -----------------
