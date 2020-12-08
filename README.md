@@ -41,7 +41,7 @@ Preparation:
 2.	Make three additional csv-files:  
 i. list of strain names tested including blank ('B'). Save as 'strain_names.csv'.
 ii. strain positions in the plate layout. Consists of a plain 8 x 12 (rows x columns) table representing the 96-well plate (without header or special first column). Each position in the table/layout is indicated with a strain name or blank ('B'). Save file as 'strain_index.csv'.  
-iii. media type in the plate layout. Consists of a plain 8 x 12 (rows x columns) table representing the 96-well plate (without header or special first column). Each position in the table/layout is indicated with a media type. Save file as 'media_index.csv'.  
+iii. media type in the plate layout. Consists of a plain 8 x 12 (rows x columns) table representing the 96-well plate (without header or special first column). Each position in the table/layout is indicated with a media type. In its current state, the script will look for media named cb, glu, or fru, and at least one need to be present. For other media, adjust in the script. Save file as 'media_index.csv'.  
 3.	Place all files in the same directory as the scipt
 
 Run the plate_reader_analytics.py file either in command line or in a Python environment (e.g. Spyder from Anaconda distribution).
