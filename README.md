@@ -10,7 +10,7 @@ Table of Contents
 About the script
 ----------------
 v7.1 - 2020-12-08  
-This script was developed by Johannes Yayo (jyayo@kth.se).
+This script was developed by Johannes Yayo.
 
 The aim with this script is to analyze OD data generated in a plate reader. The script calculates growth parameters (growth rate, lag time, max OD) including statistics as well as plots OD and LN(OD). It is specifically adapted to data generated from the Biotek Epoch 2 plate reader. It is coded in Python 2.7 (from the Anaconda distribution). 
 
@@ -66,4 +66,4 @@ The file “statistics_compiled.csv” outputs a table with growth parameters an
 Contact
 -------
 Johannes Yayo
-jyayo@kth.se
+johannes.yayo@gmail.se
